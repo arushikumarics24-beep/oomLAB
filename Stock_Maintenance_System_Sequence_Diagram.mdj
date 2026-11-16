@@ -1,0 +1,2269 @@
+{
+  "_type": "Project",
+  "_id": "cc18162d41e2450aa4b8",
+  "name": "Stock Maintenance System",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "53c0023809f448f59826",
+      "_parent": {
+        "$ref": "cc18162d41e2450aa4b8"
+      },
+      "name": "Stock Maintenance System",
+      "ownedElements": [
+        {
+          "_type": "UMLCollaboration",
+          "_id": "ae41541ea6c844c884f8",
+          "_parent": {
+            "$ref": "53c0023809f448f59826"
+          },
+          "name": "Stock Maintenance System Interaction",
+          "ownedElements": [
+            {
+              "_type": "UMLInteraction",
+              "_id": "724b4ca3f5bc40b89f4d",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "Stock Maintenance System Sequence Diagram",
+              "ownedElements": [
+                {
+                  "_type": "UMLSequenceDiagram",
+                  "_id": "c3899d6412fb443fa56f",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Stock Maintenance System Sequence Diagram",
+                  "defaultDiagram": true,
+                  "showSequenceNumber": true,
+                  "ownedViews": [
+                    {
+                      "_type": "UMLFrameView",
+                      "_id": "fff549ce3f3c43f7a2f4",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "LabelView",
+                          "_id": "ee597adf1f474a84ae32",
+                          "_parent": {
+                            "$ref": "fff549ce3f3c43f7a2f4"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 24,
+                          "top": 8,
+                          "width": 500,
+                          "height": 18,
+                          "text": "Stock Maintenance System Sequence Diagram"
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "3f61a269d03c4d30b290",
+                          "_parent": {
+                            "$ref": "fff549ce3f3c43f7a2f4"
+                          },
+                          "font": "Arial;13;1",
+                          "left": 5,
+                          "top": 8,
+                          "width": 18,
+                          "height": 16,
+                          "text": "sd"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 10,
+                      "top": 10,
+                      "width": 1480,
+                      "height": 1100,
+                      "nameLabel": {
+                        "$ref": "ee597adf1f474a84ae32"
+                      },
+                      "frameTypeLabel": {
+                        "$ref": "3f61a269d03c4d30b290"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "8704a4fb8a6143e0a109",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "bc2dfcbcf0ca4dc88866"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "b1f576eff3b84ae5ac0f",
+                          "_parent": {
+                            "$ref": "8704a4fb8a6143e0a109"
+                          },
+                          "model": {
+                            "$ref": "bc2dfcbcf0ca4dc88866"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "17fcb5a4683742188946",
+                              "_parent": {
+                                "$ref": "b1f576eff3b84ae5ac0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "1bb8671e009e4b47ae31",
+                              "_parent": {
+                                "$ref": "b1f576eff3b84ae5ac0f"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 29.0,
+                              "top": 75,
+                              "width": 132,
+                              "height": 30,
+                              "text": "StoreManager",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "0136e86d4cce4741bb01",
+                              "_parent": {
+                                "$ref": "b1f576eff3b84ae5ac0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "23dd8f88871e4bd5bc10",
+                              "_parent": {
+                                "$ref": "b1f576eff3b84ae5ac0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 29.0,
+                          "top": 55,
+                          "width": 132,
+                          "height": 50,
+                          "stereotypeLabel": {
+                            "$ref": "17fcb5a4683742188946"
+                          },
+                          "nameLabel": {
+                            "$ref": "1bb8671e009e4b47ae31"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "0136e86d4cce4741bb01"
+                          },
+                          "propertyLabel": {
+                            "$ref": "23dd8f88871e4bd5bc10"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "c576729339344826b8bf",
+                          "_parent": {
+                            "$ref": "8704a4fb8a6143e0a109"
+                          },
+                          "model": {
+                            "$ref": "bc2dfcbcf0ca4dc88866"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 95.0,
+                          "top": 105,
+                          "width": 1,
+                          "height": 945
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 29.0,
+                      "top": 55,
+                      "width": 132,
+                      "height": 995,
+                      "nameCompartment": {
+                        "$ref": "b1f576eff3b84ae5ac0f"
+                      },
+                      "linePart": {
+                        "$ref": "c576729339344826b8bf"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "c9051646627e4d639de4",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "0d658bc8b33f4976b8a2"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "a8758a484f87478f98bd",
+                          "_parent": {
+                            "$ref": "c9051646627e4d639de4"
+                          },
+                          "model": {
+                            "$ref": "0d658bc8b33f4976b8a2"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "f73f25d425c747b1bb67",
+                              "_parent": {
+                                "$ref": "a8758a484f87478f98bd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "79bc1cbfb9ac44c89ee9",
+                              "_parent": {
+                                "$ref": "a8758a484f87478f98bd"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 350.9,
+                              "top": 75,
+                              "width": 143.2,
+                              "height": 30,
+                              "text": "WarehouseManager",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "43966e1279734487ab86",
+                              "_parent": {
+                                "$ref": "a8758a484f87478f98bd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "b040a30591744e939319",
+                              "_parent": {
+                                "$ref": "a8758a484f87478f98bd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 350.9,
+                          "top": 55,
+                          "width": 143.2,
+                          "height": 50,
+                          "stereotypeLabel": {
+                            "$ref": "f73f25d425c747b1bb67"
+                          },
+                          "nameLabel": {
+                            "$ref": "79bc1cbfb9ac44c89ee9"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "43966e1279734487ab86"
+                          },
+                          "propertyLabel": {
+                            "$ref": "b040a30591744e939319"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "efac331282cd4b249819",
+                          "_parent": {
+                            "$ref": "c9051646627e4d639de4"
+                          },
+                          "model": {
+                            "$ref": "0d658bc8b33f4976b8a2"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 422.5,
+                          "top": 105,
+                          "width": 1,
+                          "height": 945
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 350.9,
+                      "top": 55,
+                      "width": 143.2,
+                      "height": 995,
+                      "nameCompartment": {
+                        "$ref": "a8758a484f87478f98bd"
+                      },
+                      "linePart": {
+                        "$ref": "efac331282cd4b249819"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "f3dfc2f54028433fa911",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "a5906a45591f4a2c8e2a"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "0e5a65cc6bab4b8586a1",
+                          "_parent": {
+                            "$ref": "f3dfc2f54028433fa911"
+                          },
+                          "model": {
+                            "$ref": "a5906a45591f4a2c8e2a"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "89d8312167ad4cb9bcd7",
+                              "_parent": {
+                                "$ref": "0e5a65cc6bab4b8586a1"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "eba72a7f8fd541e7a897",
+                              "_parent": {
+                                "$ref": "0e5a65cc6bab4b8586a1"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 684.0,
+                              "top": 75,
+                              "width": 132,
+                              "height": 30,
+                              "text": "Customer",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "28dfa79b6d814ee9a745",
+                              "_parent": {
+                                "$ref": "0e5a65cc6bab4b8586a1"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "17ea1cf417e64681806f",
+                              "_parent": {
+                                "$ref": "0e5a65cc6bab4b8586a1"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 684.0,
+                          "top": 55,
+                          "width": 132,
+                          "height": 50,
+                          "stereotypeLabel": {
+                            "$ref": "89d8312167ad4cb9bcd7"
+                          },
+                          "nameLabel": {
+                            "$ref": "eba72a7f8fd541e7a897"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "28dfa79b6d814ee9a745"
+                          },
+                          "propertyLabel": {
+                            "$ref": "17ea1cf417e64681806f"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "326797560e004638b15d",
+                          "_parent": {
+                            "$ref": "f3dfc2f54028433fa911"
+                          },
+                          "model": {
+                            "$ref": "a5906a45591f4a2c8e2a"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 750.0,
+                          "top": 105,
+                          "width": 1,
+                          "height": 945
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 684.0,
+                      "top": 55,
+                      "width": 132,
+                      "height": 995,
+                      "nameCompartment": {
+                        "$ref": "0e5a65cc6bab4b8586a1"
+                      },
+                      "linePart": {
+                        "$ref": "326797560e004638b15d"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "15934e0c50a84339a079",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "8206b8ba7b9947398ecd"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "3d7fd02299b943ebacbd",
+                          "_parent": {
+                            "$ref": "15934e0c50a84339a079"
+                          },
+                          "model": {
+                            "$ref": "8206b8ba7b9947398ecd"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "0bff7754b8054347bbaa",
+                              "_parent": {
+                                "$ref": "3d7fd02299b943ebacbd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "8a78277a48ea480295fa",
+                              "_parent": {
+                                "$ref": "3d7fd02299b943ebacbd"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 977.1,
+                              "top": 75,
+                              "width": 200.8,
+                              "height": 30,
+                              "text": "Stock Maintenance System",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "e4b44c1370884541a8c3",
+                              "_parent": {
+                                "$ref": "3d7fd02299b943ebacbd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "91d5db741381447d8b95",
+                              "_parent": {
+                                "$ref": "3d7fd02299b943ebacbd"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 977.1,
+                          "top": 55,
+                          "width": 200.8,
+                          "height": 50,
+                          "stereotypeLabel": {
+                            "$ref": "0bff7754b8054347bbaa"
+                          },
+                          "nameLabel": {
+                            "$ref": "8a78277a48ea480295fa"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "e4b44c1370884541a8c3"
+                          },
+                          "propertyLabel": {
+                            "$ref": "91d5db741381447d8b95"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "1c1f048c76544e25b9bb",
+                          "_parent": {
+                            "$ref": "15934e0c50a84339a079"
+                          },
+                          "model": {
+                            "$ref": "8206b8ba7b9947398ecd"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1077.5,
+                          "top": 105,
+                          "width": 1,
+                          "height": 945
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 977.1,
+                      "top": 55,
+                      "width": 200.8,
+                      "height": 995,
+                      "nameCompartment": {
+                        "$ref": "3d7fd02299b943ebacbd"
+                      },
+                      "linePart": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "2701750fb4134227a30c",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "50c95d10bdf546c38efe"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "bf020c4dad9546e78f8c",
+                          "_parent": {
+                            "$ref": "2701750fb4134227a30c"
+                          },
+                          "model": {
+                            "$ref": "50c95d10bdf546c38efe"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "8edbcd208f0f43fa8377",
+                              "_parent": {
+                                "$ref": "bf020c4dad9546e78f8c"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "e91f00505205485689ba",
+                              "_parent": {
+                                "$ref": "bf020c4dad9546e78f8c"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 1339.0,
+                              "top": 75,
+                              "width": 132,
+                              "height": 30,
+                              "text": "Database",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "bf9dcf74024043ec958e",
+                              "_parent": {
+                                "$ref": "bf020c4dad9546e78f8c"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "aff0193fa0004552a9c1",
+                              "_parent": {
+                                "$ref": "bf020c4dad9546e78f8c"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 1339.0,
+                          "top": 55,
+                          "width": 132,
+                          "height": 50,
+                          "stereotypeLabel": {
+                            "$ref": "8edbcd208f0f43fa8377"
+                          },
+                          "nameLabel": {
+                            "$ref": "e91f00505205485689ba"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "bf9dcf74024043ec958e"
+                          },
+                          "propertyLabel": {
+                            "$ref": "aff0193fa0004552a9c1"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "dca9172e3cb541a4b98f",
+                          "_parent": {
+                            "$ref": "2701750fb4134227a30c"
+                          },
+                          "model": {
+                            "$ref": "50c95d10bdf546c38efe"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1405.0,
+                          "top": 105,
+                          "width": 1,
+                          "height": 945
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 1339.0,
+                      "top": 55,
+                      "width": 132,
+                      "height": 995,
+                      "nameCompartment": {
+                        "$ref": "bf020c4dad9546e78f8c"
+                      },
+                      "linePart": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "149cca4a4b8b4d1a9941",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "0e69ccc6400248a59813"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "c3a2d5803c2c43c8ab90",
+                          "_parent": {
+                            "$ref": "149cca4a4b8b4d1a9941"
+                          },
+                          "model": {
+                            "$ref": "0e69ccc6400248a59813"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 509.25,
+                          "top": 116,
+                          "width": 154,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "149cca4a4b8b4d1a9941"
+                          },
+                          "edgePosition": 1,
+                          "text": "Login / Authentication"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "points": "95.0:135;1077.5:135",
+                      "nameLabel": {
+                        "$ref": "c3a2d5803c2c43c8ab90"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "1df52e92b6c64472b3e3",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "a85469668e5348c88f31"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "0aaaa7ccf42c4321b4c2",
+                          "_parent": {
+                            "$ref": "1df52e92b6c64472b3e3"
+                          },
+                          "model": {
+                            "$ref": "a85469668e5348c88f31"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1178.25,
+                          "top": 150,
+                          "width": 126,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "1df52e92b6c64472b3e3"
+                          },
+                          "edgePosition": 1,
+                          "text": "Verify credentials"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:169;1405.0:169",
+                      "nameLabel": {
+                        "$ref": "0aaaa7ccf42c4321b4c2"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "7ae4c12789cb46cfb50c",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "f830618f458e4a94a236"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "ce679ffd67504c83abc0",
+                          "_parent": {
+                            "$ref": "7ae4c12789cb46cfb50c"
+                          },
+                          "model": {
+                            "$ref": "f830618f458e4a94a236"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1143.25,
+                          "top": 184,
+                          "width": 196,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "7ae4c12789cb46cfb50c"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return authentication status"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:203;1077.5:203",
+                      "nameLabel": {
+                        "$ref": "ce679ffd67504c83abc0"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "4f065a4d14c849e8a998",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "32486b19a82646299b86"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "669736c37bc144be8c62",
+                          "_parent": {
+                            "$ref": "4f065a4d14c849e8a998"
+                          },
+                          "model": {
+                            "$ref": "32486b19a82646299b86"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 526.75,
+                          "top": 218,
+                          "width": 119,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "4f065a4d14c849e8a998"
+                          },
+                          "edgePosition": 1,
+                          "text": "Display dashboard"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:237;95.0:237",
+                      "nameLabel": {
+                        "$ref": "669736c37bc144be8c62"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "c2886982e7e44ead8dcf",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "75fd89f38ff148568d14"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "52145971c49d4794802f",
+                          "_parent": {
+                            "$ref": "c2886982e7e44ead8dcf"
+                          },
+                          "model": {
+                            "$ref": "75fd89f38ff148568d14"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 502.25,
+                          "top": 252,
+                          "width": 168,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "c2886982e7e44ead8dcf"
+                          },
+                          "edgePosition": 1,
+                          "text": "Process customer details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "points": "95.0:271;1077.5:271",
+                      "nameLabel": {
+                        "$ref": "52145971c49d4794802f"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "9091a9b81bf74335acd1",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "19af469695444c9dae1a"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "cb21ed06379441da84e3",
+                          "_parent": {
+                            "$ref": "9091a9b81bf74335acd1"
+                          },
+                          "model": {
+                            "$ref": "19af469695444c9dae1a"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 509.25,
+                          "top": 286,
+                          "width": 154,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "9091a9b81bf74335acd1"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check customer details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "points": "95.0:305;1077.5:305",
+                      "nameLabel": {
+                        "$ref": "cb21ed06379441da84e3"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "bf36ef9ef31942bfa96e",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "cd95d7c93ca8428d9947"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "d551195567fa4462afb0",
+                          "_parent": {
+                            "$ref": "bf36ef9ef31942bfa96e"
+                          },
+                          "model": {
+                            "$ref": "cd95d7c93ca8428d9947"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1146.75,
+                          "top": 320,
+                          "width": 189,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "bf36ef9ef31942bfa96e"
+                          },
+                          "edgePosition": 1,
+                          "text": "Verify customer information"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:339;1405.0:339",
+                      "nameLabel": {
+                        "$ref": "d551195567fa4462afb0"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "71af0e0f499f49089b0f",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "6bf6b1a6530248ed80d9"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "2a1068d036b3452f80b5",
+                          "_parent": {
+                            "$ref": "71af0e0f499f49089b0f"
+                          },
+                          "model": {
+                            "$ref": "6bf6b1a6530248ed80d9"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1164.25,
+                          "top": 354,
+                          "width": 154,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "71af0e0f499f49089b0f"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return customer status"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:373;1077.5:373",
+                      "nameLabel": {
+                        "$ref": "2a1068d036b3452f80b5"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "c1c7ca470e614dc886a1",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "97df9305bc164cd9b296"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "aa7e85f8d34b49c2b2ac",
+                          "_parent": {
+                            "$ref": "c1c7ca470e614dc886a1"
+                          },
+                          "model": {
+                            "$ref": "97df9305bc164cd9b296"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 505.75,
+                          "top": 388,
+                          "width": 161,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "c1c7ca470e614dc886a1"
+                          },
+                          "edgePosition": 1,
+                          "text": "Process product details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "points": "95.0:407;1077.5:407",
+                      "nameLabel": {
+                        "$ref": "aa7e85f8d34b49c2b2ac"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "d739066822e34586b1a6",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "f23bf9aa7aae40ecb286"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "ff148c167b65475da4d6",
+                          "_parent": {
+                            "$ref": "d739066822e34586b1a6"
+                          },
+                          "model": {
+                            "$ref": "f23bf9aa7aae40ecb286"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 526.75,
+                          "top": 422,
+                          "width": 119,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "d739066822e34586b1a6"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check expiry date"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "points": "95.0:441;1077.5:441",
+                      "nameLabel": {
+                        "$ref": "ff148c167b65475da4d6"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "8c8bd539555e473391c7",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "dc53ff2e88d04233a5ab"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "6f56b91e744d4864883b",
+                          "_parent": {
+                            "$ref": "8c8bd539555e473391c7"
+                          },
+                          "model": {
+                            "$ref": "dc53ff2e88d04233a5ab"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1157.25,
+                          "top": 456,
+                          "width": 168,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "8c8bd539555e473391c7"
+                          },
+                          "edgePosition": 1,
+                          "text": "Validate product details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:475;1405.0:475",
+                      "nameLabel": {
+                        "$ref": "6f56b91e744d4864883b"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "2b2137ff2848420a865e",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "6cba327adc344a9ba333"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "1295be353bdc43878726",
+                          "_parent": {
+                            "$ref": "2b2137ff2848420a865e"
+                          },
+                          "model": {
+                            "$ref": "6cba327adc344a9ba333"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1167.75,
+                          "top": 490,
+                          "width": 147,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "2b2137ff2848420a865e"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return product status"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:509;1077.5:509",
+                      "nameLabel": {
+                        "$ref": "1295be353bdc43878726"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "96d161953e854a749303",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "1688fba2b6344dcab95e"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "15cee09905784f5e9876",
+                          "_parent": {
+                            "$ref": "96d161953e854a749303"
+                          },
+                          "model": {
+                            "$ref": "1688fba2b6344dcab95e"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 505.75,
+                          "top": 524,
+                          "width": 161,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "96d161953e854a749303"
+                          },
+                          "edgePosition": 1,
+                          "text": "Confirm product details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c576729339344826b8bf"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:543;95.0:543",
+                      "nameLabel": {
+                        "$ref": "15cee09905784f5e9876"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "5a054d8bd0d049fdb4bd",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "c2393e154b5344aebd1b"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "a05d2203fe2c43169714",
+                          "_parent": {
+                            "$ref": "5a054d8bd0d049fdb4bd"
+                          },
+                          "model": {
+                            "$ref": "c2393e154b5344aebd1b"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 863.75,
+                          "top": 558,
+                          "width": 100,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "5a054d8bd0d049fdb4bd"
+                          },
+                          "edgePosition": 1,
+                          "text": "Browse catalog"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "326797560e004638b15d"
+                      },
+                      "points": "750.0:577;1077.5:577",
+                      "nameLabel": {
+                        "$ref": "a05d2203fe2c43169714"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "05579f16a3de4adb9945",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "8c66668ee5384c0c9d2e"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "845afb6ae1754870aa46",
+                          "_parent": {
+                            "$ref": "05579f16a3de4adb9945"
+                          },
+                          "model": {
+                            "$ref": "8c66668ee5384c0c9d2e"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1157.25,
+                          "top": 592,
+                          "width": 168,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "05579f16a3de4adb9945"
+                          },
+                          "edgePosition": 1,
+                          "text": "Fetch available products"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:611;1405.0:611",
+                      "nameLabel": {
+                        "$ref": "845afb6ae1754870aa46"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "4dc797fd8d5547388dcc",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "dd1949e99ee9446ca128"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "53d0824ace664ef69879",
+                          "_parent": {
+                            "$ref": "4dc797fd8d5547388dcc"
+                          },
+                          "model": {
+                            "$ref": "dd1949e99ee9446ca128"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1174.75,
+                          "top": 626,
+                          "width": 133,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "4dc797fd8d5547388dcc"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return product list"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:645;1077.5:645",
+                      "nameLabel": {
+                        "$ref": "53d0824ace664ef69879"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "5f2486c32951460593d2",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "eea3dadb5fdd455b9ab4"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "56c9fed4d5ac4e8bb005",
+                          "_parent": {
+                            "$ref": "5f2486c32951460593d2"
+                          },
+                          "model": {
+                            "$ref": "eea3dadb5fdd455b9ab4"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 787.75,
+                          "top": 660,
+                          "width": 252,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "5f2486c32951460593d2"
+                          },
+                          "edgePosition": 1,
+                          "text": "Provide shipping and payment details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "326797560e004638b15d"
+                      },
+                      "points": "750.0:679;1077.5:679",
+                      "nameLabel": {
+                        "$ref": "56c9fed4d5ac4e8bb005"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "463c72ed094540baa9ee",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "1c5c475ae2054927a35b"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "5c03b1f4cfa349b89a46",
+                          "_parent": {
+                            "$ref": "463c72ed094540baa9ee"
+                          },
+                          "model": {
+                            "$ref": "1c5c475ae2054927a35b"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1178.25,
+                          "top": 694,
+                          "width": 126,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "463c72ed094540baa9ee"
+                          },
+                          "edgePosition": 1,
+                          "text": "Save order details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:713;1405.0:713",
+                      "nameLabel": {
+                        "$ref": "5c03b1f4cfa349b89a46"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "a552f0146b334dd3aa3f",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "d6f9647e955040c9949c"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "e772aed88a6b415b8073",
+                          "_parent": {
+                            "$ref": "a552f0146b334dd3aa3f"
+                          },
+                          "model": {
+                            "$ref": "d6f9647e955040c9949c"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1191.25,
+                          "top": 728,
+                          "width": 100,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "a552f0146b334dd3aa3f"
+                          },
+                          "edgePosition": 1,
+                          "text": "Confirm order"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:747;1077.5:747",
+                      "nameLabel": {
+                        "$ref": "e772aed88a6b415b8073"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "e432ef4b128f4ea6ae7d",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "e27542b57dfe4acea09d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "02ea9abff57841da9890",
+                          "_parent": {
+                            "$ref": "e432ef4b128f4ea6ae7d"
+                          },
+                          "model": {
+                            "$ref": "e27542b57dfe4acea09d"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 822.75,
+                          "top": 762,
+                          "width": 182,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "e432ef4b128f4ea6ae7d"
+                          },
+                          "edgePosition": 1,
+                          "text": "Display order confirmation"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "326797560e004638b15d"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:781;750.0:781",
+                      "nameLabel": {
+                        "$ref": "02ea9abff57841da9890"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "f3f63172ccaf43bfbe23",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "24abf09b7a7c4b3aa854"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "4609aa352ea04e80a017",
+                          "_parent": {
+                            "$ref": "f3f63172ccaf43bfbe23"
+                          },
+                          "model": {
+                            "$ref": "24abf09b7a7c4b3aa854"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 694.0,
+                          "top": 796,
+                          "width": 112,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "f3f63172ccaf43bfbe23"
+                          },
+                          "edgePosition": 1,
+                          "text": "Add to inventory"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "efac331282cd4b249819"
+                      },
+                      "points": "422.5:815;1077.5:815",
+                      "nameLabel": {
+                        "$ref": "4609aa352ea04e80a017"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "c41646007e114c229186",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "ef95d6c4e6634a29bd7d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "44d53334cbd649f09080",
+                          "_parent": {
+                            "$ref": "c41646007e114c229186"
+                          },
+                          "model": {
+                            "$ref": "ef95d6c4e6634a29bd7d"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 673.0,
+                          "top": 830,
+                          "width": 154,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "c41646007e114c229186"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check flagged products"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "efac331282cd4b249819"
+                      },
+                      "points": "422.5:849;1077.5:849",
+                      "nameLabel": {
+                        "$ref": "44d53334cbd649f09080"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "8e59a4d4e58a40e59eb3",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "154e43ba896542839ff5"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "f61113fec02f45b48948",
+                          "_parent": {
+                            "$ref": "8e59a4d4e58a40e59eb3"
+                          },
+                          "model": {
+                            "$ref": "154e43ba896542839ff5"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1094.25,
+                          "top": 864,
+                          "width": 294,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "8e59a4d4e58a40e59eb3"
+                          },
+                          "edgePosition": 1,
+                          "text": "Update inventory / Delete expired products"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:883;1405.0:883",
+                      "nameLabel": {
+                        "$ref": "f61113fec02f45b48948"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "1b66a4ad9cf04ef797ba",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "55c881b65ee044bb8b12"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "8fbd2314a98344f59ed1",
+                          "_parent": {
+                            "$ref": "1b66a4ad9cf04ef797ba"
+                          },
+                          "model": {
+                            "$ref": "55c881b65ee044bb8b12"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 1171.25,
+                          "top": 898,
+                          "width": 140,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "1b66a4ad9cf04ef797ba"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return update status"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "tail": {
+                        "$ref": "dca9172e3cb541a4b98f"
+                      },
+                      "points": "1405.0:917;1077.5:917",
+                      "nameLabel": {
+                        "$ref": "8fbd2314a98344f59ed1"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "60a609af2891414092eb",
+                      "_parent": {
+                        "$ref": "c3899d6412fb443fa56f"
+                      },
+                      "model": {
+                        "$ref": "52fb95bc4da240af8836"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "3ed68cb200bc4320a4e6",
+                          "_parent": {
+                            "$ref": "60a609af2891414092eb"
+                          },
+                          "model": {
+                            "$ref": "52fb95bc4da240af8836"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 697.5,
+                          "top": 932,
+                          "width": 105,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "60a609af2891414092eb"
+                          },
+                          "edgePosition": 1,
+                          "text": "Confirm changes"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "efac331282cd4b249819"
+                      },
+                      "tail": {
+                        "$ref": "1c1f048c76544e25b9bb"
+                      },
+                      "points": "1077.5:951;422.5:951",
+                      "nameLabel": {
+                        "$ref": "3ed68cb200bc4320a4e6"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "messages": [
+                {
+                  "_type": "UMLMessage",
+                  "_id": "0e69ccc6400248a59813",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Login / Authentication",
+                  "source": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "a85469668e5348c88f31",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Verify credentials",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "f830618f458e4a94a236",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Return authentication status",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "32486b19a82646299b86",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Display dashboard",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "75fd89f38ff148568d14",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Process customer details",
+                  "source": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "19af469695444c9dae1a",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Check customer details",
+                  "source": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "cd95d7c93ca8428d9947",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Verify customer information",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "6bf6b1a6530248ed80d9",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Return customer status",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "97df9305bc164cd9b296",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Process product details",
+                  "source": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "f23bf9aa7aae40ecb286",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Check expiry date",
+                  "source": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "dc53ff2e88d04233a5ab",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Validate product details",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "6cba327adc344a9ba333",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Return product status",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "1688fba2b6344dcab95e",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Confirm product details",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "bc2dfcbcf0ca4dc88866"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "c2393e154b5344aebd1b",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Browse catalog",
+                  "source": {
+                    "$ref": "a5906a45591f4a2c8e2a"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "8c66668ee5384c0c9d2e",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Fetch available products",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "dd1949e99ee9446ca128",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Return product list",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "eea3dadb5fdd455b9ab4",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Provide shipping and payment details",
+                  "source": {
+                    "$ref": "a5906a45591f4a2c8e2a"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "1c5c475ae2054927a35b",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Save order details",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "d6f9647e955040c9949c",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Confirm order",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "e27542b57dfe4acea09d",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Display order confirmation",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "a5906a45591f4a2c8e2a"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "24abf09b7a7c4b3aa854",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Add to inventory",
+                  "source": {
+                    "$ref": "0d658bc8b33f4976b8a2"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "ef95d6c4e6634a29bd7d",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Check flagged products",
+                  "source": {
+                    "$ref": "0d658bc8b33f4976b8a2"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "154e43ba896542839ff5",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Update inventory / Delete expired products",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "55c881b65ee044bb8b12",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Return update status",
+                  "source": {
+                    "$ref": "50c95d10bdf546c38efe"
+                  },
+                  "target": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "52fb95bc4da240af8836",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Confirm changes",
+                  "source": {
+                    "$ref": "8206b8ba7b9947398ecd"
+                  },
+                  "target": {
+                    "$ref": "0d658bc8b33f4976b8a2"
+                  },
+                  "messageSort": "reply"
+                }
+              ],
+              "participants": [
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "bc2dfcbcf0ca4dc88866",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "StoreManager",
+                  "represent": {
+                    "$ref": "15902becfeff452a9407"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "0d658bc8b33f4976b8a2",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "WarehouseManager",
+                  "represent": {
+                    "$ref": "e03858cf03ed47a481a6"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "a5906a45591f4a2c8e2a",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Customer",
+                  "represent": {
+                    "$ref": "2cf0ffef1d284afd88f2"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "8206b8ba7b9947398ecd",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Stock Maintenance System",
+                  "represent": {
+                    "$ref": "fb0608cb0bd5460ab130"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "50c95d10bdf546c38efe",
+                  "_parent": {
+                    "$ref": "724b4ca3f5bc40b89f4d"
+                  },
+                  "name": "Database",
+                  "represent": {
+                    "$ref": "115c4804473740938d99"
+                  },
+                  "isMultiInstance": false
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "15902becfeff452a9407",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "StoreManager",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "e03858cf03ed47a481a6",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "WarehouseManager",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "2cf0ffef1d284afd88f2",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "Customer",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "fb0608cb0bd5460ab130",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "Stock Maintenance System",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "115c4804473740938d99",
+              "_parent": {
+                "$ref": "ae41541ea6c844c884f8"
+              },
+              "name": "Database",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1849 @@
+{
+  "_type": "Project",
+  "_id": "79dbf134e07f408caf41",
+  "name": "Hotel Management System",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "d879711a37e2467bb390",
+      "_parent": {
+        "$ref": "79dbf134e07f408caf41"
+      },
+      "name": "Hotel Management System",
+      "ownedElements": [
+        {
+          "_type": "UMLCollaboration",
+          "_id": "6edc4edb00ac4fa58074",
+          "_parent": {
+            "$ref": "d879711a37e2467bb390"
+          },
+          "name": "Hotel Management System Interaction",
+          "ownedElements": [
+            {
+              "_type": "UMLInteraction",
+              "_id": "c9729880301f434e944a",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Hotel Management System Sequence Diagram",
+              "ownedElements": [
+                {
+                  "_type": "UMLSequenceDiagram",
+                  "_id": "981dacf713c148ecae0d",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Hotel Management System Sequence Diagram",
+                  "defaultDiagram": true,
+                  "showSequenceNumber": true,
+                  "ownedViews": [
+                    {
+                      "_type": "UMLFrameView",
+                      "_id": "df3e743e22044dbcb905",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "LabelView",
+                          "_id": "4a83c41393944f31998c",
+                          "_parent": {
+                            "$ref": "df3e743e22044dbcb905"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 24,
+                          "top": 8,
+                          "width": 520,
+                          "height": 18,
+                          "text": "Hotel Management System Sequence Diagram"
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "cac2f9b68bf9493793b5",
+                          "_parent": {
+                            "$ref": "df3e743e22044dbcb905"
+                          },
+                          "font": "Arial;13;1",
+                          "left": 5,
+                          "top": 8,
+                          "width": 18,
+                          "height": 16,
+                          "text": "sd"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 10,
+                      "top": 10,
+                      "width": 1370,
+                      "height": 1050,
+                      "nameLabel": {
+                        "$ref": "4a83c41393944f31998c"
+                      },
+                      "frameTypeLabel": {
+                        "$ref": "cac2f9b68bf9493793b5"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "62635b35c80c4c0ab918",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "8d8f13c15641448f971e"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "25b553aaae6a4072a25b",
+                          "_parent": {
+                            "$ref": "62635b35c80c4c0ab918"
+                          },
+                          "model": {
+                            "$ref": "8d8f13c15641448f971e"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "325e59ab6a2442a8aeb2",
+                              "_parent": {
+                                "$ref": "25b553aaae6a4072a25b"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "35af98f21f274366960b",
+                              "_parent": {
+                                "$ref": "25b553aaae6a4072a25b"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 32.5,
+                              "top": 75,
+                              "width": 135,
+                              "height": 25,
+                              "text": "Customer",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "4928d2433c73465b8541",
+                              "_parent": {
+                                "$ref": "25b553aaae6a4072a25b"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "bd6988cf038944e598f8",
+                              "_parent": {
+                                "$ref": "25b553aaae6a4072a25b"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 32.5,
+                          "top": 55,
+                          "width": 135,
+                          "height": 45,
+                          "stereotypeLabel": {
+                            "$ref": "325e59ab6a2442a8aeb2"
+                          },
+                          "nameLabel": {
+                            "$ref": "35af98f21f274366960b"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "4928d2433c73465b8541"
+                          },
+                          "propertyLabel": {
+                            "$ref": "bd6988cf038944e598f8"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "c552d278f4224cbf864a",
+                          "_parent": {
+                            "$ref": "62635b35c80c4c0ab918"
+                          },
+                          "model": {
+                            "$ref": "8d8f13c15641448f971e"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 100,
+                          "top": 100,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 32.5,
+                      "top": 55,
+                      "width": 135,
+                      "height": 945,
+                      "nameCompartment": {
+                        "$ref": "25b553aaae6a4072a25b"
+                      },
+                      "linePart": {
+                        "$ref": "c552d278f4224cbf864a"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "9b8bd7f5e9f54e579930",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "f6d39a5797494671ad64"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "aaec61ddb4f04278ab58",
+                          "_parent": {
+                            "$ref": "9b8bd7f5e9f54e579930"
+                          },
+                          "model": {
+                            "$ref": "f6d39a5797494671ad64"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "0fd006870d9e485bbb1e",
+                              "_parent": {
+                                "$ref": "aaec61ddb4f04278ab58"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "df0cea61054e431cabb1",
+                              "_parent": {
+                                "$ref": "aaec61ddb4f04278ab58"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 322.5,
+                              "top": 75,
+                              "width": 135,
+                              "height": 25,
+                              "text": "Receptionist",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "48f01511c7424de08514",
+                              "_parent": {
+                                "$ref": "aaec61ddb4f04278ab58"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "e3a26cc05fa24f2c935f",
+                              "_parent": {
+                                "$ref": "aaec61ddb4f04278ab58"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 322.5,
+                          "top": 55,
+                          "width": 135,
+                          "height": 45,
+                          "stereotypeLabel": {
+                            "$ref": "0fd006870d9e485bbb1e"
+                          },
+                          "nameLabel": {
+                            "$ref": "df0cea61054e431cabb1"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "48f01511c7424de08514"
+                          },
+                          "propertyLabel": {
+                            "$ref": "e3a26cc05fa24f2c935f"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "f1721e64d0014bfbb8b4",
+                          "_parent": {
+                            "$ref": "9b8bd7f5e9f54e579930"
+                          },
+                          "model": {
+                            "$ref": "f6d39a5797494671ad64"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 390,
+                          "top": 100,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 322.5,
+                      "top": 55,
+                      "width": 135,
+                      "height": 945,
+                      "nameCompartment": {
+                        "$ref": "aaec61ddb4f04278ab58"
+                      },
+                      "linePart": {
+                        "$ref": "f1721e64d0014bfbb8b4"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "5d186b94921f497a9733",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "5f885eaa147b4b0e89e9"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "bcc573a4f7734bc692e2",
+                          "_parent": {
+                            "$ref": "5d186b94921f497a9733"
+                          },
+                          "model": {
+                            "$ref": "5f885eaa147b4b0e89e9"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "6cc11bdf5c1942099a3f",
+                              "_parent": {
+                                "$ref": "bcc573a4f7734bc692e2"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "6e1939192bd14db1a3ae",
+                              "_parent": {
+                                "$ref": "bcc573a4f7734bc692e2"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 586.5,
+                              "top": 75,
+                              "width": 187,
+                              "height": 25,
+                              "text": "Hotel Management System",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "ce77678475044e7e8149",
+                              "_parent": {
+                                "$ref": "bcc573a4f7734bc692e2"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "c95d021de3f5468185c9",
+                              "_parent": {
+                                "$ref": "bcc573a4f7734bc692e2"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 586.5,
+                          "top": 55,
+                          "width": 187,
+                          "height": 45,
+                          "stereotypeLabel": {
+                            "$ref": "6cc11bdf5c1942099a3f"
+                          },
+                          "nameLabel": {
+                            "$ref": "6e1939192bd14db1a3ae"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "ce77678475044e7e8149"
+                          },
+                          "propertyLabel": {
+                            "$ref": "c95d021de3f5468185c9"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "bdc6ab2d50eb41788ce0",
+                          "_parent": {
+                            "$ref": "5d186b94921f497a9733"
+                          },
+                          "model": {
+                            "$ref": "5f885eaa147b4b0e89e9"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 680,
+                          "top": 100,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 586.5,
+                      "top": 55,
+                      "width": 187,
+                      "height": 945,
+                      "nameCompartment": {
+                        "$ref": "bcc573a4f7734bc692e2"
+                      },
+                      "linePart": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "b17b31a5777542298a66",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "0f932efff9bb4a06bf11"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "7194879b504a4647ae0f",
+                          "_parent": {
+                            "$ref": "b17b31a5777542298a66"
+                          },
+                          "model": {
+                            "$ref": "0f932efff9bb4a06bf11"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "d9e50970ad1a40049868",
+                              "_parent": {
+                                "$ref": "7194879b504a4647ae0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "4fb4493d9c2b4c1395b7",
+                              "_parent": {
+                                "$ref": "7194879b504a4647ae0f"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 902.5,
+                              "top": 75,
+                              "width": 135,
+                              "height": 25,
+                              "text": "Database",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "b3cdd0661c124da39920",
+                              "_parent": {
+                                "$ref": "7194879b504a4647ae0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "7283dd8b61bb41d28652",
+                              "_parent": {
+                                "$ref": "7194879b504a4647ae0f"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 902.5,
+                          "top": 55,
+                          "width": 135,
+                          "height": 45,
+                          "stereotypeLabel": {
+                            "$ref": "d9e50970ad1a40049868"
+                          },
+                          "nameLabel": {
+                            "$ref": "4fb4493d9c2b4c1395b7"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "b3cdd0661c124da39920"
+                          },
+                          "propertyLabel": {
+                            "$ref": "7283dd8b61bb41d28652"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "96838e52fd0c4795b6dd",
+                          "_parent": {
+                            "$ref": "b17b31a5777542298a66"
+                          },
+                          "model": {
+                            "$ref": "0f932efff9bb4a06bf11"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 970,
+                          "top": 100,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 902.5,
+                      "top": 55,
+                      "width": 135,
+                      "height": 945,
+                      "nameCompartment": {
+                        "$ref": "7194879b504a4647ae0f"
+                      },
+                      "linePart": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "a9cbd0f40e8e4fefb476",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "6a0cef0c35734a03baf9"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "0fe7537374f249269d20",
+                          "_parent": {
+                            "$ref": "a9cbd0f40e8e4fefb476"
+                          },
+                          "model": {
+                            "$ref": "6a0cef0c35734a03baf9"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "75658a217b524d89ac00",
+                              "_parent": {
+                                "$ref": "0fe7537374f249269d20"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "d73dd704e9c3444499dd",
+                              "_parent": {
+                                "$ref": "0fe7537374f249269d20"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 1192.5,
+                              "top": 75,
+                              "width": 135,
+                              "height": 25,
+                              "text": "Manager",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "57bf6be5a10f4db5b780",
+                              "_parent": {
+                                "$ref": "0fe7537374f249269d20"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "width": 100,
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "ebf3ef5234264564b6b2",
+                              "_parent": {
+                                "$ref": "0fe7537374f249269d20"
+                              },
+                              "visible": false,
+                              "font": "Arial;12;0",
+                              "height": 13
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 1192.5,
+                          "top": 55,
+                          "width": 135,
+                          "height": 45,
+                          "stereotypeLabel": {
+                            "$ref": "75658a217b524d89ac00"
+                          },
+                          "nameLabel": {
+                            "$ref": "d73dd704e9c3444499dd"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "57bf6be5a10f4db5b780"
+                          },
+                          "propertyLabel": {
+                            "$ref": "ebf3ef5234264564b6b2"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "5694562f432646438c6d",
+                          "_parent": {
+                            "$ref": "a9cbd0f40e8e4fefb476"
+                          },
+                          "model": {
+                            "$ref": "6a0cef0c35734a03baf9"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1260,
+                          "top": 100,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 1192.5,
+                      "top": 55,
+                      "width": 135,
+                      "height": 945,
+                      "nameCompartment": {
+                        "$ref": "0fe7537374f249269d20"
+                      },
+                      "linePart": {
+                        "$ref": "5694562f432646438c6d"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "03fc24007c2b4628a813",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "e4a54476d8d24375a3b4"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "973f3a2f4a5c4d0fad8c",
+                          "_parent": {
+                            "$ref": "03fc24007c2b4628a813"
+                          },
+                          "model": {
+                            "$ref": "e4a54476d8d24375a3b4"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 334.0,
+                          "top": 116,
+                          "width": 112,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "03fc24007c2b4628a813"
+                          },
+                          "edgePosition": 1,
+                          "text": "Register / Login"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "c552d278f4224cbf864a"
+                      },
+                      "points": "100:135;680:135",
+                      "nameLabel": {
+                        "$ref": "973f3a2f4a5c4d0fad8c"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "3da6cc4d29974524b909",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "8d13734442eb4352afea"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "671d77b0645546d885f8",
+                          "_parent": {
+                            "$ref": "3da6cc4d29974524b909"
+                          },
+                          "model": {
+                            "$ref": "8d13734442eb4352afea"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 335.0,
+                          "top": 159,
+                          "width": 110,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "3da6cc4d29974524b909"
+                          },
+                          "edgePosition": 1,
+                          "text": "Search room"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "c552d278f4224cbf864a"
+                      },
+                      "points": "100:178;680:178",
+                      "nameLabel": {
+                        "$ref": "671d77b0645546d885f8"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "1e6c09268f9643848c20",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "7eaaa13368b340088f9c"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "4fc0fa0c145f40fe9e66",
+                          "_parent": {
+                            "$ref": "1e6c09268f9643848c20"
+                          },
+                          "model": {
+                            "$ref": "7eaaa13368b340088f9c"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 744.5,
+                          "top": 202,
+                          "width": 161,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "1e6c09268f9643848c20"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check room availability"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:221;970:221",
+                      "nameLabel": {
+                        "$ref": "4fc0fa0c145f40fe9e66"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "46e2cd7b3c704324a3cc",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "7876e5f4c68b429aa8a6"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "eda74689266d4f0ca372",
+                          "_parent": {
+                            "$ref": "46e2cd7b3c704324a3cc"
+                          },
+                          "model": {
+                            "$ref": "7876e5f4c68b429aa8a6"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 758.5,
+                          "top": 245,
+                          "width": 133,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "46e2cd7b3c704324a3cc"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return room details"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "points": "970:264;680:264",
+                      "nameLabel": {
+                        "$ref": "eda74689266d4f0ca372"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "99d6ba20dcbe4446aaff",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "9752659d320d48668486"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "3d578592788449c9a51b",
+                          "_parent": {
+                            "$ref": "99d6ba20dcbe4446aaff"
+                          },
+                          "model": {
+                            "$ref": "9752659d320d48668486"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 309.5,
+                          "top": 288,
+                          "width": 161,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "99d6ba20dcbe4446aaff"
+                          },
+                          "edgePosition": 1,
+                          "text": "Display available rooms"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c552d278f4224cbf864a"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:307;100:307",
+                      "nameLabel": {
+                        "$ref": "3d578592788449c9a51b"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "af5792223847461a990c",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "1b8583963e564464be0d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "2bd3a78223624f9a98bc",
+                          "_parent": {
+                            "$ref": "af5792223847461a990c"
+                          },
+                          "model": {
+                            "$ref": "1b8583963e564464be0d"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 299.0,
+                          "top": 331,
+                          "width": 182,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "af5792223847461a990c"
+                          },
+                          "edgePosition": 1,
+                          "text": "Book room and make payment"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "c552d278f4224cbf864a"
+                      },
+                      "points": "100:350;680:350",
+                      "nameLabel": {
+                        "$ref": "2bd3a78223624f9a98bc"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "de2f068a14264660bac3",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "cdf268e1b1b549d9b5da"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "aa3b7246ac90483f9217",
+                          "_parent": {
+                            "$ref": "de2f068a14264660bac3"
+                          },
+                          "model": {
+                            "$ref": "cdf268e1b1b549d9b5da"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 709.5,
+                          "top": 374,
+                          "width": 231,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "de2f068a14264660bac3"
+                          },
+                          "edgePosition": 1,
+                          "text": "Validate payment and save booking"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:393;970:393",
+                      "nameLabel": {
+                        "$ref": "aa3b7246ac90483f9217"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "b852e52462914672ad5d",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "1f4dcb1a9de9411783c8"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "0bf52d8e5f89455ebfc8",
+                          "_parent": {
+                            "$ref": "b852e52462914672ad5d"
+                          },
+                          "model": {
+                            "$ref": "1f4dcb1a9de9411783c8"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 765.5,
+                          "top": 417,
+                          "width": 119,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "b852e52462914672ad5d"
+                          },
+                          "edgePosition": 1,
+                          "text": "Booking confirmed"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "points": "970:436;680:436",
+                      "nameLabel": {
+                        "$ref": "0bf52d8e5f89455ebfc8"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "274093ab5aaf440facae",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "b6969a8987344f768e06"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "9bcc9e30c01948809ebd",
+                          "_parent": {
+                            "$ref": "274093ab5aaf440facae"
+                          },
+                          "model": {
+                            "$ref": "b6969a8987344f768e06"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 330.5,
+                          "top": 460,
+                          "width": 119,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "274093ab5aaf440facae"
+                          },
+                          "edgePosition": 1,
+                          "text": "Send confirmation"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c552d278f4224cbf864a"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:479;100:479",
+                      "nameLabel": {
+                        "$ref": "9bcc9e30c01948809ebd"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "7d10cba3afcd4b928e77",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "983aa8501e9948288f2a"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "d0108c9ef6cd43ecaba4",
+                          "_parent": {
+                            "$ref": "7d10cba3afcd4b928e77"
+                          },
+                          "model": {
+                            "$ref": "983aa8501e9948288f2a"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 451.0,
+                          "top": 503,
+                          "width": 168,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "7d10cba3afcd4b928e77"
+                          },
+                          "edgePosition": 1,
+                          "text": "View booking / Check-out"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "f1721e64d0014bfbb8b4"
+                      },
+                      "points": "390:522;680:522",
+                      "nameLabel": {
+                        "$ref": "d0108c9ef6cd43ecaba4"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "6fc5fd532fc9400e8097",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "7db90da864644d719e50"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "84e98aff711f465fb2c8",
+                          "_parent": {
+                            "$ref": "6fc5fd532fc9400e8097"
+                          },
+                          "model": {
+                            "$ref": "7db90da864644d719e50"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 730.5,
+                          "top": 546,
+                          "width": 189,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "6fc5fd532fc9400e8097"
+                          },
+                          "edgePosition": 1,
+                          "text": "Retrieve and update booking"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:565;970:565",
+                      "nameLabel": {
+                        "$ref": "84e98aff711f465fb2c8"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "523fa95df0064a26bd50",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "91a245f5828a4e96a464"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "e087c810955a4ee8922c",
+                          "_parent": {
+                            "$ref": "523fa95df0064a26bd50"
+                          },
+                          "model": {
+                            "$ref": "91a245f5828a4e96a464"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 770.0,
+                          "top": 589,
+                          "width": 110,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "523fa95df0064a26bd50"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return status"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "points": "970:608;680:608",
+                      "nameLabel": {
+                        "$ref": "e087c810955a4ee8922c"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "b206f0fcfc9a4b2482b9",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "685a3db291784d7f85f5"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "6fbe245c2ef441ab8b7a",
+                          "_parent": {
+                            "$ref": "b206f0fcfc9a4b2482b9"
+                          },
+                          "model": {
+                            "$ref": "685a3db291784d7f85f5"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 475.5,
+                          "top": 632,
+                          "width": 119,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "b206f0fcfc9a4b2482b9"
+                          },
+                          "edgePosition": 1,
+                          "text": "Confirm operation"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "f1721e64d0014bfbb8b4"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:651;390:651",
+                      "nameLabel": {
+                        "$ref": "6fbe245c2ef441ab8b7a"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "85811e0a14614a1b925c",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "48e25365220e41de8d59"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "1f7d78fcf4394453b9b8",
+                          "_parent": {
+                            "$ref": "85811e0a14614a1b925c"
+                          },
+                          "model": {
+                            "$ref": "48e25365220e41de8d59"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 886.0,
+                          "top": 675,
+                          "width": 168,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "85811e0a14614a1b925c"
+                          },
+                          "edgePosition": 1,
+                          "text": "Manage staff and pricing"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "5694562f432646438c6d"
+                      },
+                      "points": "1260:694;680:694",
+                      "nameLabel": {
+                        "$ref": "1f7d78fcf4394453b9b8"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "8092c2f7c05a4c53b9e5",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "8aebe30ca6f84220bdc2"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "5ff908dfe6074a87bd1c",
+                          "_parent": {
+                            "$ref": "8092c2f7c05a4c53b9e5"
+                          },
+                          "model": {
+                            "$ref": "8aebe30ca6f84220bdc2"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 861.5,
+                          "top": 718,
+                          "width": 217,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "8092c2f7c05a4c53b9e5"
+                          },
+                          "edgePosition": 1,
+                          "text": "View feedback / Generate report"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "5694562f432646438c6d"
+                      },
+                      "points": "1260:737;680:737",
+                      "nameLabel": {
+                        "$ref": "5ff908dfe6074a87bd1c"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "b4e65b1d96554d1b9ff4",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "818fb5bc180f4288b1b1"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "2b337c2496ff46a1b856",
+                          "_parent": {
+                            "$ref": "b4e65b1d96554d1b9ff4"
+                          },
+                          "model": {
+                            "$ref": "818fb5bc180f4288b1b1"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 730.5,
+                          "top": 761,
+                          "width": 189,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "b4e65b1d96554d1b9ff4"
+                          },
+                          "edgePosition": 1,
+                          "text": "Update and retrieve records"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:780;970:780",
+                      "nameLabel": {
+                        "$ref": "2b337c2496ff46a1b856"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "a430cb661fec4f419440",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "69aea64aae284e35812b"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "46f4d5274723415fb63d",
+                          "_parent": {
+                            "$ref": "a430cb661fec4f419440"
+                          },
+                          "model": {
+                            "$ref": "69aea64aae284e35812b"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 770.0,
+                          "top": 804,
+                          "width": 110,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "a430cb661fec4f419440"
+                          },
+                          "edgePosition": 1,
+                          "text": "Return records"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "tail": {
+                        "$ref": "96838e52fd0c4795b6dd"
+                      },
+                      "points": "970:823;680:823",
+                      "nameLabel": {
+                        "$ref": "46f4d5274723415fb63d"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "11ead450296641378f0a",
+                      "_parent": {
+                        "$ref": "981dacf713c148ecae0d"
+                      },
+                      "model": {
+                        "$ref": "dc8d45e05a5e44d5918d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "4e1c2f3a4eb945b0a474",
+                          "_parent": {
+                            "$ref": "11ead450296641378f0a"
+                          },
+                          "model": {
+                            "$ref": "dc8d45e05a5e44d5918d"
+                          },
+                          "font": "Arial;12;0",
+                          "left": 915.0,
+                          "top": 847,
+                          "width": 110,
+                          "height": 17,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "11ead450296641378f0a"
+                          },
+                          "edgePosition": 1,
+                          "text": "Display results"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "5694562f432646438c6d"
+                      },
+                      "tail": {
+                        "$ref": "bdc6ab2d50eb41788ce0"
+                      },
+                      "points": "680:866;1260:866",
+                      "nameLabel": {
+                        "$ref": "4e1c2f3a4eb945b0a474"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "messages": [
+                {
+                  "_type": "UMLMessage",
+                  "_id": "e4a54476d8d24375a3b4",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Register / Login",
+                  "source": {
+                    "$ref": "8d8f13c15641448f971e"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "8d13734442eb4352afea",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Search room",
+                  "source": {
+                    "$ref": "8d8f13c15641448f971e"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "7eaaa13368b340088f9c",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Check room availability",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "7876e5f4c68b429aa8a6",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Return room details",
+                  "source": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "9752659d320d48668486",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Display available rooms",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "8d8f13c15641448f971e"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "1b8583963e564464be0d",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Book room and make payment",
+                  "source": {
+                    "$ref": "8d8f13c15641448f971e"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "cdf268e1b1b549d9b5da",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Validate payment and save booking",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "1f4dcb1a9de9411783c8",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Booking confirmed",
+                  "source": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "b6969a8987344f768e06",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Send confirmation",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "8d8f13c15641448f971e"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "983aa8501e9948288f2a",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "View booking / Check-out",
+                  "source": {
+                    "$ref": "f6d39a5797494671ad64"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "7db90da864644d719e50",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Retrieve and update booking",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "91a245f5828a4e96a464",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Return status",
+                  "source": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "685a3db291784d7f85f5",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Confirm operation",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "f6d39a5797494671ad64"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "48e25365220e41de8d59",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Manage staff and pricing",
+                  "source": {
+                    "$ref": "6a0cef0c35734a03baf9"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "8aebe30ca6f84220bdc2",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "View feedback / Generate report",
+                  "source": {
+                    "$ref": "6a0cef0c35734a03baf9"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "818fb5bc180f4288b1b1",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Update and retrieve records",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "69aea64aae284e35812b",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Return records",
+                  "source": {
+                    "$ref": "0f932efff9bb4a06bf11"
+                  },
+                  "target": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "dc8d45e05a5e44d5918d",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Display results",
+                  "source": {
+                    "$ref": "5f885eaa147b4b0e89e9"
+                  },
+                  "target": {
+                    "$ref": "6a0cef0c35734a03baf9"
+                  },
+                  "messageSort": "reply"
+                }
+              ],
+              "participants": [
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "8d8f13c15641448f971e",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Customer",
+                  "represent": {
+                    "$ref": "b284d1895a0f410d94ca"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "f6d39a5797494671ad64",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Receptionist",
+                  "represent": {
+                    "$ref": "621ca3442cd94cd9820c"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "5f885eaa147b4b0e89e9",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Hotel Management System",
+                  "represent": {
+                    "$ref": "a798d806b81f47ab89dd"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "0f932efff9bb4a06bf11",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Database",
+                  "represent": {
+                    "$ref": "60885fad91f04e408277"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "6a0cef0c35734a03baf9",
+                  "_parent": {
+                    "$ref": "c9729880301f434e944a"
+                  },
+                  "name": "Manager",
+                  "represent": {
+                    "$ref": "257c302215f841309c09"
+                  },
+                  "isMultiInstance": false
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "b284d1895a0f410d94ca",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Customer",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "621ca3442cd94cd9820c",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Receptionist",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "a798d806b81f47ab89dd",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Hotel Management System",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "60885fad91f04e408277",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Database",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "257c302215f841309c09",
+              "_parent": {
+                "$ref": "6edc4edb00ac4fa58074"
+              },
+              "name": "Manager",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
