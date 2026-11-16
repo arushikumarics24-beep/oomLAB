@@ -1,0 +1,2099 @@
+{
+  "_type": "Project",
+  "_id": "44998d7842d64714a3a4",
+  "name": "Library Management System",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "f3758169b25b41a7b2f7",
+      "_parent": {
+        "$ref": "44998d7842d64714a3a4"
+      },
+      "name": "Library Management System",
+      "ownedElements": [
+        {
+          "_type": "UMLCollaboration",
+          "_id": "cb22a5bcbafa4e2c822e",
+          "_parent": {
+            "$ref": "f3758169b25b41a7b2f7"
+          },
+          "name": "Library Management Interaction",
+          "ownedElements": [
+            {
+              "_type": "UMLInteraction",
+              "_id": "8c0927a564aa4a60894c",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "Library Management Interaction",
+              "ownedElements": [
+                {
+                  "_type": "UMLSequenceDiagram",
+                  "_id": "29c670c51d71426ea495",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Library Management System Sequence Diagram",
+                  "defaultDiagram": true,
+                  "showSequenceNumber": false,
+                  "ownedViews": [
+                    {
+                      "_type": "UMLFrameView",
+                      "_id": "40b313b6f54f46dda3d9",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "LabelView",
+                          "_id": "408954efcf574aab84b6",
+                          "_parent": {
+                            "$ref": "40b313b6f54f46dda3d9"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 24,
+                          "top": 8,
+                          "width": 360,
+                          "height": 16,
+                          "text": "Library Management System Sequence Diagram"
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "6ada90fc21fe4b6f8719",
+                          "_parent": {
+                            "$ref": "40b313b6f54f46dda3d9"
+                          },
+                          "font": "Arial;13;1",
+                          "left": 5,
+                          "top": 8,
+                          "width": 18,
+                          "height": 16,
+                          "text": "sd"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 10,
+                      "top": 10,
+                      "width": 1370,
+                      "height": 1040,
+                      "nameLabel": {
+                        "$ref": "408954efcf574aab84b6"
+                      },
+                      "frameTypeLabel": {
+                        "$ref": "6ada90fc21fe4b6f8719"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "a95cca2a5f7e4f46a130",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "3348b57cdbe54c9a8f40"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "0b629bfb13e04f2ba378",
+                          "_parent": {
+                            "$ref": "a95cca2a5f7e4f46a130"
+                          },
+                          "model": {
+                            "$ref": "3348b57cdbe54c9a8f40"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "c73df33d418a49e3b31e",
+                              "_parent": {
+                                "$ref": "0b629bfb13e04f2ba378"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "437337c03dbc4851af10",
+                              "_parent": {
+                                "$ref": "0b629bfb13e04f2ba378"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 92,
+                              "top": 55,
+                              "width": 116,
+                              "height": 18,
+                              "text": "Customer",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "b745541b76074a3bb4ae",
+                              "_parent": {
+                                "$ref": "0b629bfb13e04f2ba378"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "width": 100,
+                              "height": 13,
+                              "text": "(from Library Management Interaction)"
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "dbdc41a025374f8eab3c",
+                              "_parent": {
+                                "$ref": "0b629bfb13e04f2ba378"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13,
+                              "horizontalAlignment": 1
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 75,
+                          "top": 35,
+                          "width": 150,
+                          "height": 40,
+                          "stereotypeLabel": {
+                            "$ref": "c73df33d418a49e3b31e"
+                          },
+                          "nameLabel": {
+                            "$ref": "437337c03dbc4851af10"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "b745541b76074a3bb4ae"
+                          },
+                          "propertyLabel": {
+                            "$ref": "dbdc41a025374f8eab3c"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "976af473e0d14d1b8626",
+                          "_parent": {
+                            "$ref": "a95cca2a5f7e4f46a130"
+                          },
+                          "model": {
+                            "$ref": "3348b57cdbe54c9a8f40"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 150,
+                          "top": 75,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 75,
+                      "top": 35,
+                      "width": 150,
+                      "height": 940,
+                      "nameCompartment": {
+                        "$ref": "0b629bfb13e04f2ba378"
+                      },
+                      "linePart": {
+                        "$ref": "976af473e0d14d1b8626"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "65f1b6403bf44e23867d",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "10e15ef010b34877a64c"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "4fcf251666ab4a6b87f0",
+                          "_parent": {
+                            "$ref": "65f1b6403bf44e23867d"
+                          },
+                          "model": {
+                            "$ref": "10e15ef010b34877a64c"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "0ec3f9d15c984774801b",
+                              "_parent": {
+                                "$ref": "4fcf251666ab4a6b87f0"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "48c12e128c2b44e39bfb",
+                              "_parent": {
+                                "$ref": "4fcf251666ab4a6b87f0"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 362,
+                              "top": 55,
+                              "width": 116,
+                              "height": 18,
+                              "text": "Librarian",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "0ec6f242fc51455da032",
+                              "_parent": {
+                                "$ref": "4fcf251666ab4a6b87f0"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "width": 100,
+                              "height": 13,
+                              "text": "(from Library Management Interaction)"
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "ecc5edab36c8453fa301",
+                              "_parent": {
+                                "$ref": "4fcf251666ab4a6b87f0"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13,
+                              "horizontalAlignment": 1
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 345,
+                          "top": 35,
+                          "width": 150,
+                          "height": 40,
+                          "stereotypeLabel": {
+                            "$ref": "0ec3f9d15c984774801b"
+                          },
+                          "nameLabel": {
+                            "$ref": "48c12e128c2b44e39bfb"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "0ec6f242fc51455da032"
+                          },
+                          "propertyLabel": {
+                            "$ref": "ecc5edab36c8453fa301"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "77588d9b8d4541d68045",
+                          "_parent": {
+                            "$ref": "65f1b6403bf44e23867d"
+                          },
+                          "model": {
+                            "$ref": "10e15ef010b34877a64c"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 420,
+                          "top": 75,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 345,
+                      "top": 35,
+                      "width": 150,
+                      "height": 940,
+                      "nameCompartment": {
+                        "$ref": "4fcf251666ab4a6b87f0"
+                      },
+                      "linePart": {
+                        "$ref": "77588d9b8d4541d68045"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "8e8f188ef66148cf96e5",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "aa28511658014d1d9d2d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "53be8d34870f48c8a3c9",
+                          "_parent": {
+                            "$ref": "8e8f188ef66148cf96e5"
+                          },
+                          "model": {
+                            "$ref": "aa28511658014d1d9d2d"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "11082ec99cbd41319dff",
+                              "_parent": {
+                                "$ref": "53be8d34870f48c8a3c9"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "2e3ee745130b40ddb4a3",
+                              "_parent": {
+                                "$ref": "53be8d34870f48c8a3c9"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 632,
+                              "top": 55,
+                              "width": 116,
+                              "height": 18,
+                              "text": "Book",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "30745ffad5c149468106",
+                              "_parent": {
+                                "$ref": "53be8d34870f48c8a3c9"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "width": 100,
+                              "height": 13,
+                              "text": "(from Library Management Interaction)"
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "fda774ef41714ef584e3",
+                              "_parent": {
+                                "$ref": "53be8d34870f48c8a3c9"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13,
+                              "horizontalAlignment": 1
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 615,
+                          "top": 35,
+                          "width": 150,
+                          "height": 40,
+                          "stereotypeLabel": {
+                            "$ref": "11082ec99cbd41319dff"
+                          },
+                          "nameLabel": {
+                            "$ref": "2e3ee745130b40ddb4a3"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "30745ffad5c149468106"
+                          },
+                          "propertyLabel": {
+                            "$ref": "fda774ef41714ef584e3"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "cbb92d6c86c34348b599",
+                          "_parent": {
+                            "$ref": "8e8f188ef66148cf96e5"
+                          },
+                          "model": {
+                            "$ref": "aa28511658014d1d9d2d"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 690,
+                          "top": 75,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 615,
+                      "top": 35,
+                      "width": 150,
+                      "height": 940,
+                      "nameCompartment": {
+                        "$ref": "53be8d34870f48c8a3c9"
+                      },
+                      "linePart": {
+                        "$ref": "cbb92d6c86c34348b599"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "1afb065852844529ad67",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "7972619c7f014fe0ad4e"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "30a0fef5a7984192a07b",
+                          "_parent": {
+                            "$ref": "1afb065852844529ad67"
+                          },
+                          "model": {
+                            "$ref": "7972619c7f014fe0ad4e"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "593b67784e1d4785b529",
+                              "_parent": {
+                                "$ref": "30a0fef5a7984192a07b"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "57610da0f77b4c68bd10",
+                              "_parent": {
+                                "$ref": "30a0fef5a7984192a07b"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 902,
+                              "top": 55,
+                              "width": 116,
+                              "height": 18,
+                              "text": "System",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "8a5557df33ba467fbcf1",
+                              "_parent": {
+                                "$ref": "30a0fef5a7984192a07b"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "width": 100,
+                              "height": 13,
+                              "text": "(from Library Management Interaction)"
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "75381ded5f644f168d60",
+                              "_parent": {
+                                "$ref": "30a0fef5a7984192a07b"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13,
+                              "horizontalAlignment": 1
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 885,
+                          "top": 35,
+                          "width": 150,
+                          "height": 40,
+                          "stereotypeLabel": {
+                            "$ref": "593b67784e1d4785b529"
+                          },
+                          "nameLabel": {
+                            "$ref": "57610da0f77b4c68bd10"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "8a5557df33ba467fbcf1"
+                          },
+                          "propertyLabel": {
+                            "$ref": "75381ded5f644f168d60"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "c424b99c6ade41818d6f",
+                          "_parent": {
+                            "$ref": "1afb065852844529ad67"
+                          },
+                          "model": {
+                            "$ref": "7972619c7f014fe0ad4e"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 960,
+                          "top": 75,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 885,
+                      "top": 35,
+                      "width": 150,
+                      "height": 940,
+                      "nameCompartment": {
+                        "$ref": "30a0fef5a7984192a07b"
+                      },
+                      "linePart": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "2f7da2328f854248bc2f",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "bd250c8f73a4489c9b88"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "UMLNameCompartmentView",
+                          "_id": "2f069e792db64c91923e",
+                          "_parent": {
+                            "$ref": "2f7da2328f854248bc2f"
+                          },
+                          "model": {
+                            "$ref": "bd250c8f73a4489c9b88"
+                          },
+                          "subViews": [
+                            {
+                              "_type": "LabelView",
+                              "_id": "695ad89a40f442efa1e7",
+                              "_parent": {
+                                "$ref": "2f069e792db64c91923e"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "15fa9003b393406fb882",
+                              "_parent": {
+                                "$ref": "2f069e792db64c91923e"
+                              },
+                              "font": "Arial;13;1",
+                              "left": 1172,
+                              "top": 55,
+                              "width": 116,
+                              "height": 18,
+                              "text": "Database",
+                              "horizontalAlignment": 1
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "335c2bf81d00432a986a",
+                              "_parent": {
+                                "$ref": "2f069e792db64c91923e"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "width": 100,
+                              "height": 13,
+                              "text": "(from Library Management Interaction)"
+                            },
+                            {
+                              "_type": "LabelView",
+                              "_id": "cb760577c6034309930f",
+                              "_parent": {
+                                "$ref": "2f069e792db64c91923e"
+                              },
+                              "visible": false,
+                              "font": "Arial;13;0",
+                              "height": 13,
+                              "horizontalAlignment": 1
+                            }
+                          ],
+                          "font": "Arial;13;0",
+                          "left": 1155,
+                          "top": 35,
+                          "width": 150,
+                          "height": 40,
+                          "stereotypeLabel": {
+                            "$ref": "695ad89a40f442efa1e7"
+                          },
+                          "nameLabel": {
+                            "$ref": "15fa9003b393406fb882"
+                          },
+                          "namespaceLabel": {
+                            "$ref": "335c2bf81d00432a986a"
+                          },
+                          "propertyLabel": {
+                            "$ref": "cb760577c6034309930f"
+                          }
+                        },
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "f2684aff48464b3cb2fe",
+                          "_parent": {
+                            "$ref": "2f7da2328f854248bc2f"
+                          },
+                          "model": {
+                            "$ref": "bd250c8f73a4489c9b88"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1230,
+                          "top": 75,
+                          "width": 1,
+                          "height": 900
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "left": 1155,
+                      "top": 35,
+                      "width": 150,
+                      "height": 940,
+                      "nameCompartment": {
+                        "$ref": "2f069e792db64c91923e"
+                      },
+                      "linePart": {
+                        "$ref": "f2684aff48464b3cb2fe"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "f1152c716e3b49d581a1",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "f1454107aa7542abaf5f"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "9ec66f9396bf4d0dbf60",
+                          "_parent": {
+                            "$ref": "f1152c716e3b49d581a1"
+                          },
+                          "model": {
+                            "$ref": "f1454107aa7542abaf5f"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 217.8,
+                          "top": 107,
+                          "width": 134.4,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "f1152c716e3b49d581a1"
+                          },
+                          "edgePosition": 1,
+                          "text": "Search/Request a book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "points": "150:125;420:125",
+                      "nameLabel": {
+                        "$ref": "9ec66f9396bf4d0dbf60"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "5926ec0f19ef452d8649",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "078bcf097925430ebfef"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "36e1f3fc1f284d6d95b1",
+                          "_parent": {
+                            "$ref": "5926ec0f19ef452d8649"
+                          },
+                          "model": {
+                            "$ref": "078bcf097925430ebfef"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 500.0,
+                          "top": 145,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "5926ec0f19ef452d8649"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check for a book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "cbb92d6c86c34348b599"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:163;690:163",
+                      "nameLabel": {
+                        "$ref": "36e1f3fc1f284d6d95b1"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "625c480137a145b1ab1d",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "09b7fe7aca32448481ea"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "81cecd4ec26f4e5b8219",
+                          "_parent": {
+                            "$ref": "625c480137a145b1ab1d"
+                          },
+                          "model": {
+                            "$ref": "09b7fe7aca32448481ea"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 500.0,
+                          "top": 183,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "625c480137a145b1ab1d"
+                          },
+                          "edgePosition": 1,
+                          "text": "return the book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "cbb92d6c86c34348b599"
+                      },
+                      "points": "690:201;420:201",
+                      "nameLabel": {
+                        "$ref": "81cecd4ec26f4e5b8219"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "384391d1e46b4200a3d5",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "f5f42112866e47d09415"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "829755e906e44e44819c",
+                          "_parent": {
+                            "$ref": "384391d1e46b4200a3d5"
+                          },
+                          "model": {
+                            "$ref": "f5f42112866e47d09415"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 230.0,
+                          "top": 221,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "384391d1e46b4200a3d5"
+                          },
+                          "edgePosition": 1,
+                          "text": "Book Available"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:239;150:239",
+                      "nameLabel": {
+                        "$ref": "829755e906e44e44819c"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "f9833c5bda6540cdb952",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "0a4d1c235ed44ed5b8c5"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "fd79c211e5cf4cd7bc07",
+                          "_parent": {
+                            "$ref": "f9833c5bda6540cdb952"
+                          },
+                          "model": {
+                            "$ref": "0a4d1c235ed44ed5b8c5"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 214.6,
+                          "top": 259,
+                          "width": 140.8,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "f9833c5bda6540cdb952"
+                          },
+                          "edgePosition": 1,
+                          "text": "Request for issue Book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "points": "150:277;420:277",
+                      "nameLabel": {
+                        "$ref": "fd79c211e5cf4cd7bc07"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "b9687996671046248974",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "a9f2e9ed69b849a2b98c"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "50a82b4aff1746b2a87b",
+                          "_parent": {
+                            "$ref": "b9687996671046248974"
+                          },
+                          "model": {
+                            "$ref": "a9f2e9ed69b849a2b98c"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 217.8,
+                          "top": 297,
+                          "width": 134.4,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "b9687996671046248974"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check no.issued books"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:315;150:315",
+                      "nameLabel": {
+                        "$ref": "50a82b4aff1746b2a87b"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "580c82aa45614b12a115",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "037248ce77c8495fab31"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "d31b0720f5244bd1a65a",
+                          "_parent": {
+                            "$ref": "580c82aa45614b12a115"
+                          },
+                          "model": {
+                            "$ref": "037248ce77c8495fab31"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 230.0,
+                          "top": 335,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "580c82aa45614b12a115"
+                          },
+                          "edgePosition": 1,
+                          "text": "Issue a book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "points": "150:353;420:353",
+                      "nameLabel": {
+                        "$ref": "d31b0720f5244bd1a65a"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "a4a34ae79f844870b7fe",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "8fb0095c05844e579a63"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "65d1860c61dd4b8e9ec3",
+                          "_parent": {
+                            "$ref": "a4a34ae79f844870b7fe"
+                          },
+                          "model": {
+                            "$ref": "8fb0095c05844e579a63"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 632.4,
+                          "top": 373,
+                          "width": 115.2,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "a4a34ae79f844870b7fe"
+                          },
+                          "edgePosition": 1,
+                          "text": "Create Transaction"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:391;960:391",
+                      "nameLabel": {
+                        "$ref": "65d1860c61dd4b8e9ec3"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "7b32768346ff4e69b37d",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "fbc48eea389749b9a9e0"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "09e5e346548c43a89512",
+                          "_parent": {
+                            "$ref": "7b32768346ff4e69b37d"
+                          },
+                          "model": {
+                            "$ref": "fbc48eea389749b9a9e0"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 594.0,
+                          "top": 411,
+                          "width": 192.0,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "7b32768346ff4e69b37d"
+                          },
+                          "edgePosition": 1,
+                          "text": "Add member and details of book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:429;960:429",
+                      "nameLabel": {
+                        "$ref": "09e5e346548c43a89512"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "cd3fcbab94034d499640",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "3511609324a64617ab8c"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "2d11e8136e3f485e87dd",
+                          "_parent": {
+                            "$ref": "cd3fcbab94034d499640"
+                          },
+                          "model": {
+                            "$ref": "3511609324a64617ab8c"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 465.4,
+                          "top": 449,
+                          "width": 179.20000000000002,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "cd3fcbab94034d499640"
+                          },
+                          "edgePosition": 1,
+                          "text": "Update status of book issued"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "cbb92d6c86c34348b599"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:467;690:467",
+                      "nameLabel": {
+                        "$ref": "2d11e8136e3f485e87dd"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "2cff5defbe6a4a76bcbb",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "f35b49d1a5f24affb128"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "3fc48af1431e4f4785ee",
+                          "_parent": {
+                            "$ref": "2cff5defbe6a4a76bcbb"
+                          },
+                          "model": {
+                            "$ref": "f35b49d1a5f24affb128"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 230.0,
+                          "top": 487,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "2cff5defbe6a4a76bcbb"
+                          },
+                          "edgePosition": 1,
+                          "text": "Book issued"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:505;150:505",
+                      "nameLabel": {
+                        "$ref": "3fc48af1431e4f4785ee"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "531ec27c3ece4a5490f0",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "71b7576a16dc438c843b"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "029cc96589da409fbc07",
+                          "_parent": {
+                            "$ref": "531ec27c3ece4a5490f0"
+                          },
+                          "model": {
+                            "$ref": "71b7576a16dc438c843b"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 603.6,
+                          "top": 525,
+                          "width": 172.8,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "531ec27c3ece4a5490f0"
+                          },
+                          "edgePosition": 1,
+                          "text": "Notify for overdue and fine"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "points": "960:543;420:543",
+                      "nameLabel": {
+                        "$ref": "029cc96589da409fbc07"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "8068286326834a54a422",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "297309ee0b624e20ada9"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "617f9e5ec89642ba9a74",
+                          "_parent": {
+                            "$ref": "8068286326834a54a422"
+                          },
+                          "model": {
+                            "$ref": "297309ee0b624e20ada9"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 214.6,
+                          "top": 563,
+                          "width": 140.8,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "8068286326834a54a422"
+                          },
+                          "edgePosition": 1,
+                          "text": "ask to return the book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:581;150:581",
+                      "nameLabel": {
+                        "$ref": "617f9e5ec89642ba9a74"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "558d0537695a4f1e95a1",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "3a841d45571740a3ad94"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "e34cabedb728474b9fdc",
+                          "_parent": {
+                            "$ref": "558d0537695a4f1e95a1"
+                          },
+                          "model": {
+                            "$ref": "3a841d45571740a3ad94"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 176.2,
+                          "top": 601,
+                          "width": 217.60000000000002,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "558d0537695a4f1e95a1"
+                          },
+                          "edgePosition": 1,
+                          "text": "re-issue or renewal of issued book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "tail": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "points": "150:619;420:619",
+                      "nameLabel": {
+                        "$ref": "e34cabedb728474b9fdc"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "5cfb2a3edf774b409cf8",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "ceb75a49b6a6476f91fd"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "452ba2c863824a22a07e",
+                          "_parent": {
+                            "$ref": "5cfb2a3edf774b409cf8"
+                          },
+                          "model": {
+                            "$ref": "ceb75a49b6a6476f91fd"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 217.8,
+                          "top": 639,
+                          "width": 134.4,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "5cfb2a3edf774b409cf8"
+                          },
+                          "edgePosition": 1,
+                          "text": "Check no.issued books"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:657;150:657",
+                      "nameLabel": {
+                        "$ref": "452ba2c863824a22a07e"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "bde8ae2bbe0147e69ea9",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "fffe1ee0d0984e35aac5"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "a40f1a9556c24da19dd6",
+                          "_parent": {
+                            "$ref": "bde8ae2bbe0147e69ea9"
+                          },
+                          "model": {
+                            "$ref": "fffe1ee0d0984e35aac5"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 227.4,
+                          "top": 677,
+                          "width": 115.2,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "bde8ae2bbe0147e69ea9"
+                          },
+                          "edgePosition": 1,
+                          "text": "approve of reissue"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "976af473e0d14d1b8626"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:695;150:695",
+                      "nameLabel": {
+                        "$ref": "a40f1a9556c24da19dd6"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "991dda2830bb4bc696a6",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "875d270133d146268bdb"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "81d60dd3746347d1aadb",
+                          "_parent": {
+                            "$ref": "991dda2830bb4bc696a6"
+                          },
+                          "model": {
+                            "$ref": "875d270133d146268bdb"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 619.6,
+                          "top": 715,
+                          "width": 140.8,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "991dda2830bb4bc696a6"
+                          },
+                          "edgePosition": 1,
+                          "text": "Add New Books/arrivals"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:733;960:733",
+                      "nameLabel": {
+                        "$ref": "81d60dd3746347d1aadb"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "0f18bebd855a4a0da80b",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "ab319d5c36c748daa32d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "ef4255bae8c1465993b6",
+                          "_parent": {
+                            "$ref": "0f18bebd855a4a0da80b"
+                          },
+                          "model": {
+                            "$ref": "ab319d5c36c748daa32d"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1040.0,
+                          "top": 753,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "0f18bebd855a4a0da80b"
+                          },
+                          "edgePosition": 1,
+                          "text": "Add Book"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "f2684aff48464b3cb2fe"
+                      },
+                      "tail": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "points": "960:771;1230:771",
+                      "nameLabel": {
+                        "$ref": "ef4255bae8c1465993b6"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "11a5bded1e6549f5a647",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "2490e07c53214c10bc4a"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "5e8afc9ba3c841df8f10",
+                          "_parent": {
+                            "$ref": "11a5bded1e6549f5a647"
+                          },
+                          "model": {
+                            "$ref": "2490e07c53214c10bc4a"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1040.0,
+                          "top": 791,
+                          "width": 110,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "11a5bded1e6549f5a647"
+                          },
+                          "edgePosition": 1,
+                          "text": "Book added"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "f2684aff48464b3cb2fe"
+                      },
+                      "points": "1230:809;960:809",
+                      "nameLabel": {
+                        "$ref": "5e8afc9ba3c841df8f10"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "ec99401873294c6da3c3",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "a0b0c267b4394dd9b468"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "e0c57b914cef4af58646",
+                          "_parent": {
+                            "$ref": "ec99401873294c6da3c3"
+                          },
+                          "model": {
+                            "$ref": "a0b0c267b4394dd9b468"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 587.6,
+                          "top": 829,
+                          "width": 204.8,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "ec99401873294c6da3c3"
+                          },
+                          "edgePosition": 1,
+                          "text": "Update and then remove old books"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "77588d9b8d4541d68045"
+                      },
+                      "points": "420:847;960:847",
+                      "nameLabel": {
+                        "$ref": "e0c57b914cef4af58646"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "cb3845db43794b489993",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "b72d6432d033454a909d"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "f684c69234ee43c0a31b",
+                          "_parent": {
+                            "$ref": "cb3845db43794b489993"
+                          },
+                          "model": {
+                            "$ref": "b72d6432d033454a909d"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1031.0,
+                          "top": 867,
+                          "width": 128.0,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "cb3845db43794b489993"
+                          },
+                          "edgePosition": 1,
+                          "text": "Update, remove books"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "f2684aff48464b3cb2fe"
+                      },
+                      "tail": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "points": "960:885;1230:885",
+                      "nameLabel": {
+                        "$ref": "f684c69234ee43c0a31b"
+                      }
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "9854713d0bf0406383f3",
+                      "_parent": {
+                        "$ref": "29c670c51d71426ea495"
+                      },
+                      "model": {
+                        "$ref": "774eba2018744b8a8b54"
+                      },
+                      "subViews": [
+                        {
+                          "_type": "EdgeLabelView",
+                          "_id": "d371118ba6144ff2a6d9",
+                          "_parent": {
+                            "$ref": "9854713d0bf0406383f3"
+                          },
+                          "model": {
+                            "$ref": "774eba2018744b8a8b54"
+                          },
+                          "font": "Arial;13;0",
+                          "left": 1034.2,
+                          "top": 905,
+                          "width": 121.60000000000001,
+                          "height": 16,
+                          "alpha": 1.5707963267948966,
+                          "distance": 10,
+                          "hostEdge": {
+                            "$ref": "9854713d0bf0406383f3"
+                          },
+                          "edgePosition": 1,
+                          "text": "Updated and removed"
+                        }
+                      ],
+                      "font": "Arial;13;0",
+                      "head": {
+                        "$ref": "c424b99c6ade41818d6f"
+                      },
+                      "tail": {
+                        "$ref": "f2684aff48464b3cb2fe"
+                      },
+                      "points": "1230:923;960:923",
+                      "nameLabel": {
+                        "$ref": "d371118ba6144ff2a6d9"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "messages": [
+                {
+                  "_type": "UMLMessage",
+                  "_id": "f1454107aa7542abaf5f",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Search/Request a book",
+                  "source": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "078bcf097925430ebfef",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Check for a book",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "aa28511658014d1d9d2d"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "09b7fe7aca32448481ea",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "return the book",
+                  "source": {
+                    "$ref": "aa28511658014d1d9d2d"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "f5f42112866e47d09415",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Book Available",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "0a4d1c235ed44ed5b8c5",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Request for issue Book",
+                  "source": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "a9f2e9ed69b849a2b98c",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Check no.issued books",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "037248ce77c8495fab31",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Issue a book",
+                  "source": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "8fb0095c05844e579a63",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Create Transaction",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "fbc48eea389749b9a9e0",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Add member and details of book",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "3511609324a64617ab8c",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Update status of book issued",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "aa28511658014d1d9d2d"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "f35b49d1a5f24affb128",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Book issued",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "71b7576a16dc438c843b",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Notify for overdue and fine",
+                  "source": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "asynchSignal"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "297309ee0b624e20ada9",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "ask to return the book",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "asynchSignal"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "3a841d45571740a3ad94",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "re-issue or renewal of issued book",
+                  "source": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "target": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "ceb75a49b6a6476f91fd",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Check no.issued books",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "fffe1ee0d0984e35aac5",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "approve of reissue",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "3348b57cdbe54c9a8f40"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "875d270133d146268bdb",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Add New Books/arrivals",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "ab319d5c36c748daa32d",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Add Book",
+                  "source": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "target": {
+                    "$ref": "bd250c8f73a4489c9b88"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "2490e07c53214c10bc4a",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Book added",
+                  "source": {
+                    "$ref": "bd250c8f73a4489c9b88"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "reply"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "a0b0c267b4394dd9b468",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Update and then remove old books",
+                  "source": {
+                    "$ref": "10e15ef010b34877a64c"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "b72d6432d033454a909d",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Update, remove books",
+                  "source": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "target": {
+                    "$ref": "bd250c8f73a4489c9b88"
+                  },
+                  "messageSort": "synchCall"
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "774eba2018744b8a8b54",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Updated and removed",
+                  "source": {
+                    "$ref": "bd250c8f73a4489c9b88"
+                  },
+                  "target": {
+                    "$ref": "7972619c7f014fe0ad4e"
+                  },
+                  "messageSort": "reply"
+                }
+              ],
+              "participants": [
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "3348b57cdbe54c9a8f40",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Customer",
+                  "represent": {
+                    "$ref": "bb1dc4d8e1494e0481bc"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "10e15ef010b34877a64c",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Librarian",
+                  "represent": {
+                    "$ref": "232d9e065dff4bbaa94c"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "aa28511658014d1d9d2d",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Book",
+                  "represent": {
+                    "$ref": "ba6d79679ce64af0aba5"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "7972619c7f014fe0ad4e",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "System",
+                  "represent": {
+                    "$ref": "3a56fcdce5704de6878c"
+                  },
+                  "isMultiInstance": false
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "bd250c8f73a4489c9b88",
+                  "_parent": {
+                    "$ref": "8c0927a564aa4a60894c"
+                  },
+                  "name": "Database",
+                  "represent": {
+                    "$ref": "239c1b5db5814744a498"
+                  },
+                  "isMultiInstance": false
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "bb1dc4d8e1494e0481bc",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "Customer",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "232d9e065dff4bbaa94c",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "Librarian",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "ba6d79679ce64af0aba5",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "Book",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "3a56fcdce5704de6878c",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "System",
+              "type": ""
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "239c1b5db5814744a498",
+              "_parent": {
+                "$ref": "cb22a5bcbafa4e2c822e"
+              },
+              "name": "Database",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
