@@ -1,0 +1,750 @@
+{
+  "_type": "Project",
+  "_id": "70H3+uGVRHuEr8jieaUctg==",
+  "name": "Credit Card Management System",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "H3nZDbImT/e/ui4jqG4alw==",
+      "_parent": {
+        "$ref": "70H3+uGVRHuEr8jieaUctg=="
+      },
+      "name": "Credit Card Management Model",
+      "ownedElements": [
+        {
+          "_type": "UMLSequenceDiagram",
+          "_id": "+YXb7A2PS9iYc+j3N0o60A==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Credit Card Management - Sequence Diagram",
+          "defaultDiagram": true,
+          "showSequenceNumber": true,
+          "sequenceNumbering": "custom",
+          "ownedViews": [
+            {
+              "_type": "UMLSeqLifelineView",
+              "_id": "qOwGWsm7RPWW9LOpedQwqQ==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+              },
+              "left": 45,
+              "top": 35,
+              "width": 130,
+              "height": 1080,
+              "name": "Customer",
+              "showName": true
+            },
+            {
+              "_type": "UMLSeqLifelineView",
+              "_id": "5bGDkTkpRFiV2uV5bi42jQ==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "rGS91e58RI2jU8MLLTQL3w=="
+              },
+              "left": 265,
+              "top": 35,
+              "width": 130,
+              "height": 1080,
+              "name": "Clearing House",
+              "showName": true
+            },
+            {
+              "_type": "UMLSeqLifelineView",
+              "_id": "/MbdL8lbQEiVLC9zz4Y3/g==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+              },
+              "left": 585,
+              "top": 35,
+              "width": 130,
+              "height": 1080,
+              "name": "Credit Card System",
+              "showName": true
+            },
+            {
+              "_type": "UMLSeqLifelineView",
+              "_id": "3q1am0/HS96GqlfkHsHv6g==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+              },
+              "left": 885,
+              "top": 35,
+              "width": 130,
+              "height": 1080,
+              "name": "Bank",
+              "showName": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "q7OpmZGMTGyGwtn0TK8J4A==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "PgYcQ/OSTkORKlvC77xW8A=="
+              },
+              "tail": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 110,
+              "top": 170,
+              "width": 540,
+              "height": 1,
+              "points": "110:170;650:170",
+              "text": "Login / Authenticate",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "vW25buWUS4aXM0tkWf4qYQ==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "xInVtG4oQeeTcKLtBZUCwA=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "left": 650,
+              "top": 226,
+              "width": 300,
+              "height": 1,
+              "points": "650:226;950:226",
+              "text": "Validate credentials",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "zJk9RAz9StOktlbNzmCS9g==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "XT4lyNRiSIWlE1G/44Nu9w=="
+              },
+              "tail": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 650,
+              "top": 282,
+              "width": 300,
+              "height": 1,
+              "points": "950:282;650:282",
+              "text": "Authentication status",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "yvT/+tgKR8WJVY80kmUKPQ==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "Nzyo0RPDQYuj7+aUSrrvTw=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "left": 110,
+              "top": 338,
+              "width": 540,
+              "height": 1,
+              "points": "650:338;110:338",
+              "text": "Login successful",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "WbSR7TsDS6CW/xXB+T55Dw==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "0MWjAwxSQXag4S9WUfSWDw=="
+              },
+              "tail": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 110,
+              "top": 394,
+              "width": 540,
+              "height": 1,
+              "points": "110:394;650:394",
+              "text": "Initiate transaction (Purchase/Payment)",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "nAJrmL37QyK2Wq1hafgv/A==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "3JN8EEHKRMyixs3ebBbcZA=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "left": 650,
+              "top": 450,
+              "width": 300,
+              "height": 1,
+              "points": "650:450;950:450",
+              "text": "Process transaction",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "YRtQ0o7EQF6y+iehUABPog==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "rZYaSTg2TUeyioeI18ZEww=="
+              },
+              "tail": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 650,
+              "top": 506,
+              "width": 300,
+              "height": 1,
+              "points": "950:506;650:506",
+              "text": "Transaction response",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "ayIOOzvrSEm27ezKMpfDrA==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "yOkBDEmoR+C2cbzH9F8lpA=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "left": 110,
+              "top": 562,
+              "width": 540,
+              "height": 1,
+              "points": "650:562;110:562",
+              "text": "Transaction confirmation",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "vrUEe4WATHuJCk+m4pT3/w==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "ikTeoxRTTGCuxY89cvyLSQ=="
+              },
+              "tail": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 110,
+              "top": 618,
+              "width": 540,
+              "height": 1,
+              "points": "110:618;650:618",
+              "text": "Check balance",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "5IhCq1NsRo+SIQIuBl6Wdw==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "zvuZCwthTqGk3pZM/6SB3Q=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "left": 650,
+              "top": 674,
+              "width": 300,
+              "height": 1,
+              "points": "650:674;950:674",
+              "text": "Fetch account balance",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "/COnHhwWRdeUjWYZKUg12g==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "GnYJEyU7SbqwzHeOacIC6g=="
+              },
+              "tail": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 650,
+              "top": 730,
+              "width": 300,
+              "height": 1,
+              "points": "950:730;650:730",
+              "text": "Balance details",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "SEXQysQsQu+eizZyZ5ISGA==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "pwGCbWIJQlWbRWK79BI9bw=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "left": 110,
+              "top": 786,
+              "width": 540,
+              "height": 1,
+              "points": "650:786;110:786",
+              "text": "Display balance",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "renH3biPSO2Of1n/nH2pLA==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "+RiodhpzSEyG2QBhDIYgHg=="
+              },
+              "tail": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 110,
+              "top": 842,
+              "width": 540,
+              "height": 1,
+              "points": "110:842;650:842",
+              "text": "Create / Update / Terminate account or Verify card info",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "vv8DXfKYTLSeC8Kl1e0eNw==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "LcWq3D0yR16Oon+1gxbPcw=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "left": 650,
+              "top": 898,
+              "width": 300,
+              "height": 1,
+              "points": "650:898;950:898",
+              "text": "Update account/card details",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "uJrIwOh1ShyXg84CMHlLgw==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "uJPKWh1NR5yoxw6tnUtLkw=="
+              },
+              "tail": {
+                "$ref": "3q1am0/HS96GqlfkHsHv6g=="
+              },
+              "head": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "left": 650,
+              "top": 954,
+              "width": 300,
+              "height": 1,
+              "points": "950:954;650:954",
+              "text": "Update status",
+              "showSequenceNumber": true
+            },
+            {
+              "_type": "UMLSeqMessageView",
+              "_id": "UDk9c1qBQ3eDKDADiFVU3g==",
+              "_parent": {
+                "$ref": "+YXb7A2PS9iYc+j3N0o60A=="
+              },
+              "model": {
+                "$ref": "d3t9coG1QNGEkcmx755XJA=="
+              },
+              "tail": {
+                "$ref": "/MbdL8lbQEiVLC9zz4Y3/g=="
+              },
+              "head": {
+                "$ref": "qOwGWsm7RPWW9LOpedQwqQ=="
+              },
+              "left": 110,
+              "top": 1010,
+              "width": 540,
+              "height": 1,
+              "points": "650:1010;110:1010",
+              "text": "Operation successful",
+              "showSequenceNumber": true
+            }
+          ]
+        },
+        {
+          "_type": "UMLLifeline",
+          "_id": "4IRWpNz+QamlTgtGQ+emnw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Customer"
+        },
+        {
+          "_type": "UMLLifeline",
+          "_id": "rGS91e58RI2jU8MLLTQL3w==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Clearing House"
+        },
+        {
+          "_type": "UMLLifeline",
+          "_id": "1vMRxYufSYa4EAMCidfOTQ==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Credit Card System"
+        },
+        {
+          "_type": "UMLLifeline",
+          "_id": "1ylAfKNiTniYgSzJYzy3RA==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Bank"
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "PgYcQ/OSTkORKlvC77xW8A==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Login / Authenticate",
+          "messageSort": "synchCall",
+          "sequenceNumber": "1",
+          "tail": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "xInVtG4oQeeTcKLtBZUCwA==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Validate credentials",
+          "messageSort": "synchCall",
+          "sequenceNumber": "2",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "XT4lyNRiSIWlE1G/44Nu9w==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Authentication status",
+          "messageSort": "reply",
+          "sequenceNumber": "3",
+          "tail": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "Nzyo0RPDQYuj7+aUSrrvTw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Login successful",
+          "messageSort": "reply",
+          "sequenceNumber": "4",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "0MWjAwxSQXag4S9WUfSWDw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Initiate transaction (Purchase/Payment)",
+          "messageSort": "synchCall",
+          "sequenceNumber": "5",
+          "tail": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "3JN8EEHKRMyixs3ebBbcZA==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Process transaction",
+          "messageSort": "synchCall",
+          "sequenceNumber": "6",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "rZYaSTg2TUeyioeI18ZEww==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Transaction response",
+          "messageSort": "reply",
+          "sequenceNumber": "7",
+          "tail": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "yOkBDEmoR+C2cbzH9F8lpA==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Transaction confirmation",
+          "messageSort": "reply",
+          "sequenceNumber": "8",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "ikTeoxRTTGCuxY89cvyLSQ==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Check balance",
+          "messageSort": "synchCall",
+          "sequenceNumber": "9",
+          "tail": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "zvuZCwthTqGk3pZM/6SB3Q==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Fetch account balance",
+          "messageSort": "synchCall",
+          "sequenceNumber": "10",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "GnYJEyU7SbqwzHeOacIC6g==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Balance details",
+          "messageSort": "reply",
+          "sequenceNumber": "11",
+          "tail": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "pwGCbWIJQlWbRWK79BI9bw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Display balance",
+          "messageSort": "reply",
+          "sequenceNumber": "12",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "+RiodhpzSEyG2QBhDIYgHg==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Create / Update / Terminate account or Verify card info",
+          "messageSort": "synchCall",
+          "sequenceNumber": "13",
+          "tail": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "LcWq3D0yR16Oon+1gxbPcw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Update account/card details",
+          "messageSort": "synchCall",
+          "sequenceNumber": "14",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "uJPKWh1NR5yoxw6tnUtLkw==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Update status",
+          "messageSort": "reply",
+          "sequenceNumber": "15",
+          "tail": {
+            "$ref": "1ylAfKNiTniYgSzJYzy3RA=="
+          },
+          "head": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          }
+        },
+        {
+          "_type": "UMLMessage",
+          "_id": "d3t9coG1QNGEkcmx755XJA==",
+          "_parent": {
+            "$ref": "H3nZDbImT/e/ui4jqG4alw=="
+          },
+          "name": "Operation successful",
+          "messageSort": "reply",
+          "sequenceNumber": "16",
+          "tail": {
+            "$ref": "1vMRxYufSYa4EAMCidfOTQ=="
+          },
+          "head": {
+            "$ref": "4IRWpNz+QamlTgtGQ+emnw=="
+          }
+        }
+      ]
+    }
+  ]
+}
